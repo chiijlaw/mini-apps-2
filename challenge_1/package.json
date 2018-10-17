@@ -1,0 +1,23 @@
+{
+  "name": "challenge_1",
+  "version": "1.0.0",
+  "description": "Users can search and browse historical events",
+  "scripts": {
+    "build": "webpack --config webpack.config.js -w -d"
+  },
+  "author": "Chii",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-paginate": "^5.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
