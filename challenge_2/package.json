@@ -1,0 +1,25 @@
+{
+  "name": "challenge_2",
+  "version": "1.0.0",
+  "description": "Cryptocurrency Charting Tool",
+  "scripts": {
+    "build": "webpack --config webpack.config.js -d -w",
+    "start": "nodemon src/server.js"
+  },
+  "author": "Chii",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "chart.js": "^2.7.3",
+    "express": "^4.16.4",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
