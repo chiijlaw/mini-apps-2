@@ -6,7 +6,7 @@ import Search from "./Search.jsx";
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { data: [], pageIndex: 1, lastSearchTerm: "" };
+    this.state = { data: [], pageIndex: 1, lastSearchTerm: "", pageCount: 1 };
     this.handleSearch = this.handleSearch.bind(this);
     this.handlePageClick = this.handlePageClick.bind(this);
   }
@@ -21,10 +21,16 @@ class App extends React.Component {
       }&_limit=10`
     )
       .then(data => {
+        let totalCount = data.headers.get("x-total-count");
+        let pageCount = Math.ceil(totalCount / 10);
+        this.setState({ pageCount: pageCount });
         return data.json();
       })
       .then(jsonData => {
-        this.setState({ data: jsonData, lastSearchTerm: text });
+        this.setState({
+          data: jsonData,
+          lastSearchTerm: text
+        });
       });
   }
 
