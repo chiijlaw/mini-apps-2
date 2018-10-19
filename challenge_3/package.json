@@ -1,0 +1,25 @@
+{
+  "name": "bowling",
+  "version": "1.0.0",
+  "description": "single-page app implementation of a 10-pin Bowling game using Express and React",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js -d -w",
+    "start": "nodemon server.js"
+  },
+  "author": "Chii",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "express": "^4.16.4",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
