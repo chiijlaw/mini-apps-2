@@ -5,7 +5,7 @@ This is a project I completed as a student at [hackreactor](http://hackreactor.c
 Historical events viewer. React
 
 ## Challenge 2
-Cryptocurrency Charting Tool
+Cryptocurrency Charting Tool. React
 
 ## Challenge 3
 10-pin Bowling Game
