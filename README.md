@@ -8,7 +8,7 @@ Historical events viewer. React
 Cryptocurrency Charting Tool. React
 
 ## Challenge 3
-10-pin Bowling Game
+10-pin Bowling Game. React
 
 ## Challenge 4
 Mine sweeper
