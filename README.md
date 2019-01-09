@@ -11,4 +11,4 @@ Cryptocurrency Charting Tool. React
 10-pin Bowling Game. React
 
 ## Challenge 4
-Mine sweeper
+Mine sweeper.
